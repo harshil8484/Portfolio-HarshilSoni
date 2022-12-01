@@ -1,0 +1,42 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 35px 70px;
+    z-index: 1;
+    transition: padding, top 0.3s ease-in-out;
+    top: 0;
+  }
+  .stick {
+    padding: 20px 70px;
+    top: -20%;
+  }
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .links li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  li.logo {
+    font-weight: bold;
+    font-size: 34px;
+    margin-right: 40px;
+  }
+  
+  .hire-me {
+    font-size: 23px;
+  }
+  

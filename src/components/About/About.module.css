@@ -1,0 +1,31 @@
+.about {
+    display: block;
+    position: relative;
+    background-image: url("./home-cover.jpeg");
+    background-repeat: no-repeat;
+    /* height: 1000px; */
+    background-size: 100%;
+  }
+  
+  .content {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    width: 90%;
+    text-align: left;
+  }
+  
+  img {
+  }
+  
+  .name {
+    color: #6f5757;
+  }
+  
+  .contact-me {
+    margin-top: 30px;
+  }
+  

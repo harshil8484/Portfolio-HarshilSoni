@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  background-color: #000000;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+/* 
+main {
+  max-width: 1460px;
+  width: 100%;
+  margin: 0 auto;
+} */
+* {
+  outline: none;
+}
+
+button.primary {
+  background: transparent;
+  text-transform: uppercase;
+  height: 43px;
+  border-radius: 4px;
+  width: 160px;
+  font-size: 14px;
+  box-shadow: none;
+  letter-spacing: 0.3px;
+  border: 1px solid #6f5757;
+  cursor: pointer;
+  transition: border-color 0.3s ease-in-out;
+}
+
+button.primary:hover {
+  border-color: #fff;
+}
+
+.titles {
+  margin: 0;
+}
+
+.project-block {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 250px;
+  position: relative;
+  align-items: center;
+}
+
+.project-block .project-img {
+  width: 70%;
+  background: linear-gradient( 180deg, rgba(35, 37, 49, 0.5), rgba(15, 15, 24, 0.5) );
+  border: 0.2rem solid #20222e;
+  box-sizing: border-box;
+  -webkit-backdrop-filter: blur(54px);
+  backdrop-filter: blur(54px);
+  border-radius: 1.3rem;
+  /* display: flex; */
+  align-items: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.project-list {
+  padding: 0;
+}
+
+.main-content {
+  max-width: 1340px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.project-block a span {
+  color: #6f5757;
+  text-transform: uppercase;
+  display: block;
+  font-size: 18px;
+}
+
+.project-block a span.bottom-border {
+  border-top: 1px solid #fff;
+  width: 42%;
+  margin-top: 5px;
+  transition: width 0.3s ease-in-out;
+}
+
+.project-block a:hover span.bottom-border {
+  width: 100%;
+}
+
+.project-card__left h4 {
+  text-align: right;
+  color: #8b8b8b;
+  font-size: 13px;
+  position: absolute;
+  text-transform: uppercase;
+  bottom: 0px;
+}
+.project-number {
+  color: black;
+  text-shadow: -1px -1px 0 #ffffffb8, 1px -1px 0 #ffffffb8, -1px 1px 0 #ffffffb8, 1px 1px 0 #ffffffb8;
+  letter-spacing: 2px;
+  position: absolute;
+  top: -60px;
+  font-size: 124px;
+  z-index: 1;
+  opacity: 0.4;
+  right: -50px;
+}
+
+.heading-1 {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  letter-spacing: -0.03em;
+  font-family: Mark Pro, sans-serif;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.titles span:first-child {
+  margin-right: 1rem;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#b0f3f1),
+    to(#ffcfdf)
+  );
+  background-image: -webkit-linear-gradient(left, #b0f3f1, #ffcfdf);
+  background-image: linear-gradient(90deg, #b0f3f1, #ffcfdf);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.paragraph {
+  font-size: 1.7rem;
+  line-height: 130.4%;
+  color: var(--color-gray);
+}
+
+.skills-block {
+  display: block;
+  margin: 20px 0 80px;
+}
+
+.skills-block .skill-title {
+  text-align: left;
+  color: #beedee;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  font-size: 33px;
+  font-weight: bold;
+  margin: 0 26px;
+  border-bottom: 1px solid #beedee;
+  padding-bottom: 4px;
+}
+
+.skill-list {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.skill-item-name {
+  flex: 0 0 49%;
+  margin: 0 auto 15px;
+  padding: 26px;
+  background: rgb(49 56 81 / 40%);
+  /* border: 1px solid; */
+  font-size: 22px;
+}
+
+span.img-icon {
+  width: 27px;
+}
+
+span.img-icon img {
+  width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 20px;
+}
+
+.icon img {
+  width: 45px;
+  filter: inherit;
+}
+.icon img.invert {
+  filter: invert(1);
+}
+
+span.icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  float: right;
+}
+.contact-me {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-block .links img {
+  width: 26px;
+  margin: 0 6px;
+}
+
+footer {
+  background: #0000008f;
+  padding: 20px 70px;
+  border-top: 1px solid;
+  margin-top: 70px;
+}
+
+.opener {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: black;
+  z-index: 9;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  transition: all 1s ease-in-out;
+  overflow: hidden;
+}
+
+.opener.slide-up {
+  top: -100%;
+  opacity: 0;
+  background-color: transparent;
+}
+.opener h3 {
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.opener h3.visible {
+  opacity: 1;
+}
+
+span.img-icon {
+  height: 23px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 21px;
+  margin-top: -2px;
+}
