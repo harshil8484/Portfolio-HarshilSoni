@@ -255,14 +255,13 @@ footer {
   justify-content: center;
   align-items: center;
   top: 0;
-  transition: all 1s ease-in-out;
+  transition: top 1s ease-in-out;
   overflow: hidden;
+  border-bottom: 4px solid #f19b44;
 }
 
 .opener.slide-up {
   top: -100%;
-  opacity: 0;
-  background-color: transparent;
 }
 .opener h3 {
   opacity: 0;

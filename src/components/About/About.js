@@ -23,9 +23,9 @@ const About = () => {
           <p></p>
         </div>
       </div>
-      <span class="scroll-btn">
+      <span className="scroll-btn">
         <a href="#projects">
-          <span class="mouse">
+          <span className="mouse">
             <span></span>
           </span>
         </a>
