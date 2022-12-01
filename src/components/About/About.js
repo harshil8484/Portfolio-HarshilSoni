@@ -3,7 +3,7 @@ import heroBanner from "./home-cover.jpeg";
 const About = () => {
   return (
     <div className={classes.about}>
-      <img src={heroBanner}></img>
+      <img src={heroBanner} alt="hero banner"></img>
       <div className={classes.content}>
         <div className="candidate-details">
           <h1>
