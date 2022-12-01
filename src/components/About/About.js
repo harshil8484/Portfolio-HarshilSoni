@@ -23,6 +23,14 @@ const About = () => {
           <p></p>
         </div>
       </div>
+      <span class="scroll-btn">
+        <a href="#projects">
+          <span class="mouse">
+            <span></span>
+          </span>
+        </a>
+        <p>scroll me</p>
+      </span>
     </div>
   );
 };

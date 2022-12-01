@@ -59,7 +59,11 @@ button.primary:hover {
 
 .project-block .project-img {
   width: 70%;
-  background: linear-gradient( 180deg, rgba(35, 37, 49, 0.5), rgba(15, 15, 24, 0.5) );
+  background: linear-gradient(
+    180deg,
+    rgba(35, 37, 49, 0.5),
+    rgba(15, 15, 24, 0.5)
+  );
   border: 0.2rem solid #20222e;
   box-sizing: border-box;
   -webkit-backdrop-filter: blur(54px);
@@ -109,7 +113,8 @@ button.primary:hover {
 }
 .project-number {
   color: black;
-  text-shadow: -1px -1px 0 #ffffffb8, 1px -1px 0 #ffffffb8, -1px 1px 0 #ffffffb8, 1px 1px 0 #ffffffb8;
+  text-shadow: -1px -1px 0 #ffffffb8, 1px -1px 0 #ffffffb8, -1px 1px 0 #ffffffb8,
+    1px 1px 0 #ffffffb8;
   letter-spacing: 2px;
   position: absolute;
   top: -60px;
@@ -274,4 +279,113 @@ span.img-icon {
   vertical-align: top;
   margin-right: 21px;
   margin-top: -2px;
+}
+@-webkit-keyframes ani-mouse {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+  15% {
+    opacity: 1;
+    top: 50%;
+  }
+  50% {
+    opacity: 0;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+@-moz-keyframes ani-mouse {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+  15% {
+    opacity: 1;
+    top: 50%;
+  }
+  50% {
+    opacity: 0;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+@keyframes ani-mouse {
+  0% {
+    opacity: 1;
+    top: 29%;
+  }
+  15% {
+    opacity: 1;
+    top: 50%;
+  }
+  50% {
+    opacity: 0;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 29%;
+  }
+}
+.scroll-btn {
+  display: table;
+  position: absolute;
+  bottom: 61px;
+  right: 0;
+  text-align: center;
+  width: 100%;
+}
+.scroll-btn > * {
+  /* display: inline-block; */
+  line-height: 18px;
+  font-size: 13px;
+  font-weight: normal;
+  color: #b79d90;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *.active {
+  color: #ffffff;
+}
+.scroll-btn > *:hover,
+.scroll-btn > *:focus,
+.scroll-btn > *:active,
+.scroll-btn > *.active {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.scroll-btn .mouse {
+  position: relative;
+  display: block;
+  width: 35px;
+  height: 55px;
+  margin: 0 auto 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid #b79d90;
+  border-radius: 23px;
+}
+.scroll-btn .mouse > * {
+  position: absolute;
+  display: block;
+  top: 29%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  background: #f19f3b;
+  border-radius: 50%;
+  -webkit-animation: ani-mouse 2.5s linear infinite;
+  -moz-animation: ani-mouse 2.5s linear infinite;
+  animation: ani-mouse 2.5s linear infinite;
 }
