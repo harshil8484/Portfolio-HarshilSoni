@@ -17,7 +17,7 @@ const Projects = () => {
             <div className={`project-block`} key={index + "project"}>
               <div className="project-detail">
                 <h1>{project.name}</h1>
-                <a href={project.url}>
+                <a href={project.url} target="_blank" rel="noopener noreferrer">
                   <span>Visit the website</span>
                   <span className="bottom-border"></span>
                 </a>

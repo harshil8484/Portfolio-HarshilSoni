@@ -10,7 +10,11 @@ const Footer = () => {
             <p>© Copyright {getDate.getFullYear()}. Made by Harshil Soni</p>
           </div>
           <div className="links">
-            <a href="https://www.linkedin.com/in/harshil-soni-2b02669b/">
+            <a
+              href="https://www.linkedin.com/in/harshil-soni-2b02669b/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <span className="icon">
                 <img src={skills[0].otherIcons[3]} alt="Linkendin"></img>
               </span>
