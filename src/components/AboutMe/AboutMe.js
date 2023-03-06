@@ -64,21 +64,15 @@ const AboutMe = () => {
         <div className={heroBannerClass}></div>
         <div className={bottomBlock}>
           <div className="profiles-link">
-            <a
-              onClick={() => scrollToHandler("projects")}
-              rel="noopener noreferrer"
-            >
+            <button onClick={() => scrollToHandler("projects")}>
               latest work
-            </a>
+            </button>
             <a rel="noopener noreferrer" href={cv} download>
               download cv
             </a>
-            <a
-              onClick={() => scrollToHandler("contactus")}
-              rel="noopener noreferrer"
-            >
+            <button onClick={() => scrollToHandler("contactus")}>
               contact me
-            </a>
+            </button>
           </div>
         </div>
         <div className={heroTextClass}>
