@@ -57,8 +57,8 @@ const AboutMe = () => {
       <div className="conainer-aboutme">
         <div className={headBgBlock}>
           <div className="under-images">
-            <img src={Body} className="img-1"></img>
-            <img src={Mind} className="img-2"></img>
+            <img src={Body} className="img-1" alt="bodyanimateed"></img>
+            <img src={Mind} className="img-2" alt="mindanimated"></img>
           </div>
         </div>
         <div className={heroBannerClass}></div>
