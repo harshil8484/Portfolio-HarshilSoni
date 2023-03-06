@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="footer-title">
             <p>© Copyright {getDate.getFullYear()}. Made by Harshil Soni</p>
           </div>
-          <div className="links">
+          {/* <div className="links">
             <a
               href="https://www.linkedin.com/in/harshil-soni-2b02669b/"
               target="_blank"
@@ -33,7 +33,7 @@ const Footer = () => {
                 <img src={skills[0].otherIcons[5]} alt="mail"></img>
               </span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

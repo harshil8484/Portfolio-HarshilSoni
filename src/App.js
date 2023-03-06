@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar/Navbar";
-import About from "./components/About/About"
+import AboutMe from './components/AboutMe/AboutMe';
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Cotact";
@@ -11,7 +11,7 @@ const  App = ()=> {
     <main>
       <Opener/>
       <Navbar/>
-      <About/>
+      <AboutMe/>
       <div className="main-content">
       <Projects/>
       <Skills/>

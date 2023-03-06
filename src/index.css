@@ -2,13 +2,14 @@
 
 * {
   box-sizing: border-box;
-  color: #fff;
+  
 }
 
 body {
   background-color: #000000;
   margin: 0;
   font-family: "Ubuntu", sans-serif;
+  color: #fff;
 }
 img {
   max-width: 100%;
@@ -223,8 +224,10 @@ span.icon {
   background: transparent;
   border: 0;
   box-shadow: none;
-  font-size: 23px;
+  font-size: 14px;
   cursor: pointer;
+  color: #fff;
+  font-weight: 600;
 }
 
 .footer-block {
@@ -257,7 +260,7 @@ footer {
   top: 0;
   transition: top 1s ease-in-out;
   overflow: hidden;
-  border-bottom: 4px solid #f19b44;
+  border-bottom: 4px solid #fff;
 }
 
 .opener.slide-up {
@@ -387,4 +390,18 @@ span.img-icon {
   -webkit-animation: ani-mouse 2.5s linear infinite;
   -moz-animation: ani-mouse 2.5s linear infinite;
   animation: ani-mouse 2.5s linear infinite;
+}
+
+.middle-nav {
+  width: 8%;
+}
+.middle-nav a {
+  margin: 0 10px;
+}
+.middle-nav a img {
+  width: 20px;
+  filter: invert(1);
+}
+.candidate-details a {
+  cursor: pointer;
 }
