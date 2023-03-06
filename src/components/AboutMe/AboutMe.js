@@ -92,9 +92,9 @@ const AboutMe = () => {
             </p>
             <div class="About_contact-me__RbMkr">
               <br></br>
-              <a class="primary" onClick={() => scrollToHandler("projects")}>
+              <button class="primary-anchor" onClick={() => scrollToHandler("projects")}>
                 Learn More!
-              </a>
+              </button>
             </div>
           </div>
         </div>
