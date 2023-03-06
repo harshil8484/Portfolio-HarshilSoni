@@ -32,7 +32,7 @@ const Navbar = () => {
           <ul>
             <li className={classes.logo}>
               <span>harshil.</span>
-              <span>ui developer</span>  
+              <span>ui developer</span>
             </li>
             {/* <li
               onClick={() => {
@@ -51,16 +51,24 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="middle-nav">
-            <a href="https://www.linkedin.com/in/harshil-soni-2b02669b/" target="_blank">  
-              <img src={github}/>
-            </a>
-            <a href="https://github.com/harshil8484" target="_blank"> 
-              <img src={linkedin}/>
-            </a>
+          <a
+            href="https://www.linkedin.com/in/harshil-soni-2b02669b/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={github} alt="git" />
+          </a>
+          <a
+            href="https://github.com/harshil8484"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={linkedin} alt="linkendin" />
+          </a>
         </div>
         <div className={classes["hire-me"]}>
-        <a
-           href="mailto:harshilsoni888@gmail.com" 
+          <a
+            href="mailto:harshilsoni888@gmail.com"
             className="contact-me email"
           >
             email me
