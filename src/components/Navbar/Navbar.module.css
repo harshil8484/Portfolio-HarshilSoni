@@ -5,6 +5,7 @@
     z-index: 1;
     transition: padding, top 0.3s ease-in-out;
     top: 0;
+    z-index: 2;
   }
   .stick {
     padding: 20px 70px;
@@ -25,7 +26,7 @@
   .links li {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 20px;
+   
     font-size: 16px;
     cursor: pointer;
   }
@@ -33,10 +34,13 @@
   li.logo {
     font-weight: bold;
     font-size: 34px;
-    margin-right: 40px;
+  
   }
+  li.logo span{display: block;}
+  li.logo span:last-child{font-size: 13px;}
   
   .hire-me {
     font-size: 23px;
   }
+  
   
