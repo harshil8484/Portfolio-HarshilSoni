@@ -15,14 +15,6 @@ const Navbar = () => {
     });
   }, []);
 
-  const scrollToHandler = (id) => {
-    var elem = document.getElementById(id);
-    elem.scrollIntoView({
-      behavior: "smooth",
-      block: "nearest",
-    });
-  };
-
   return (
     <header
       className={`${classes.navbar} ${navbarStick ? classes.stick : ""}  `}
@@ -34,20 +26,6 @@ const Navbar = () => {
               <span>harshil.</span>
               <span>ui developer</span>
             </li>
-            {/* <li
-              onClick={() => {
-                scrollToHandler("projects");
-              }}
-            >
-              Projects
-            </li>
-            <li
-              onClick={() => {
-                scrollToHandler("skills");
-              }}
-            >
-              Skills
-            </li> */}
           </ul>
         </div>
         <div className="middle-nav">
