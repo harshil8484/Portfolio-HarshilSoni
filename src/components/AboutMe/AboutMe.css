@@ -135,7 +135,7 @@ a.primary {
   text-decoration: underline;
   font-weight: 600;
 }
-.profiles-link button {
+.profiles-link button,.primary-anchor {
   background-color: transparent;
   border: 0;
   font-weight: 600;
@@ -143,3 +143,4 @@ a.primary {
   text-decoration: underline;
   cursor: pointer;
 }
+button.primary-anchor {color:#fff !important;}
