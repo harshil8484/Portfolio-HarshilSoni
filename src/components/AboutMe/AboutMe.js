@@ -80,9 +80,9 @@ const AboutMe = () => {
           <span>Expert</span>
         </div>
         <div className={`desc ${heroDesc}`}>
-          <div class="candidate-details">
+          <div className="candidate-details">
             <h1>
-              Hello I'm <span class="About_name__udJms">Harshil Soni</span>
+              Hello I'm <span className="About_name__udJms">Harshil Soni</span>
               <br></br>A Frontend Developer
             </h1>
             <p>
@@ -90,9 +90,9 @@ const AboutMe = () => {
               Development. Fascinated by the idea of bringing data and UI
               together.
             </p>
-            <div class="About_contact-me__RbMkr">
+            <div className="About_contact-me__RbMkr">
               <br></br>
-              <button class="primary-anchor" onClick={() => scrollToHandler("projects")}>
+              <button className="primary-anchor" onClick={() => scrollToHandler("projects")}>
                 Learn More!
               </button>
             </div>
