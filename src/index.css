@@ -492,4 +492,14 @@ span.img-icon {
   .bottom-block.active,.bottom-block {
     background-color: transparent;
   }
+  .skills-block .skill-title {
+    margin:0;
+    font-size: 17px;
+  }
+  .icon img {
+    width: 21px;
+  }
+  button.primary-anchor{
+    padding-left: 0;
+  }
 }
