@@ -30,14 +30,14 @@ const Navbar = () => {
         </div>
         <div className="middle-nav">
           <a
-            href="https://www.linkedin.com/in/harshil-soni-2b02669b/"
+            href="https://github.com/harshil8484"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={github} alt="git" />
           </a>
           <a
-            href="https://github.com/harshil8484"
+            href="https://www.linkedin.com/in/harshil-soni-2b02669b/"
             target="_blank"
             rel="noopener noreferrer"
           >
